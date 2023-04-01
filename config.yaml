@@ -1,0 +1,19 @@
+# GPU SETTINGS
+GPU1: 0
+
+# TRAINING SETTINGS
+NUM_EPOCH: 100 # Artworks dataset: 200000 / CelebA dataset: 500000
+BATCH_SIZE: 1
+LR: 0.0001
+BETA1: 0.5
+BETA2: 0.999
+WEIGHT_DECAY: 0.0001
+
+SAVE_NAME: model_name
+MODEL_SAVE_PATH: model_save/
+MODE: train
+
+DIM: 3
+DEG: 30
+
+TRAIN_MERGE: True
